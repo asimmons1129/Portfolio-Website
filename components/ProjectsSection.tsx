@@ -25,7 +25,7 @@ const projects = [
     description:
       "WGUPS Tracker is a delivery service app that tracks package deliveries",
     image: "/delivery-tracker2.png",
-    github: "https://github.com/asimmons1129/Wine-Quality-Predictor-/blob/main/Wine_Quality_Analysis_Notebook.ipynb",
+    github: "https://github.com/asimmons1129/WGU-C950-Delivery-Service-Algorithm",
     link: "https://katorfamilyphotos.com/",
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Wine Quality Analyzer is a web app that analyzes wine's quality based on chemical components",
     image: "/wine-tasting-ml.png",
-    github: "https://github.com/asimmons1129/WGU-C950-Delivery-Service-Algorithm",
+    github: "https://github.com/asimmons1129/Wine-Quality-Predictor-/blob/main/Wine_Quality_Analysis_Notebook.ipynb",
     link: "https://colab.research.google.com/drive/1Chd4qozpvbehFftnl4mcPG7-SW-dKeIS?usp=sharing",
   },
 ]
