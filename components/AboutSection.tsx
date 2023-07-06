@@ -34,12 +34,12 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left text-purple-800">
               My Background
             </h1>
-            <p className="dark:text-neutral-400">
+            <p className="text-neutral-600 dark:text-neutral-400">
               Hey there! My name is Andre and I am a Technology Analyst
               based in Dallas, TX.
             </p>
             <br />
-            <p className="dark:text-neutral-400">
+            <p className="text-neutral-600 dark:text-neutral-400">
               I decided to transition into a career in tech in 2020 when I decided 
               to go back to school.  I switched my major to Computer Science and 
               earned my Associate's degree in 2021.  I furthered my education 
@@ -47,13 +47,13 @@ const AboutSection = () => {
               in 2023.
             </p>
             <br />
-            <p className="dark:text-neutral-400">
+            <p className="text-neutral-600 dark:text-neutral-400">
               Apart from my worklife, I'm an avid NBA and NFL fan (Go Lakers/Jets!).
               I also love to watch movies, play basketball, cook delicious meals, and 
               travel.
             </p>
             <br />
-            <p className="dark:text-neutral-400">
+            <p className="text-neutral-600 dark:text-neutral-400">
               I&#39;ve always been a believer in the quote: <br />{" "}
               <span className="font-bold text-purple-500">
                 Whatever makes you uncomfortable is your biggest opportunity for growth <br />
@@ -67,7 +67,7 @@ const AboutSection = () => {
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6 text-purple-800">My Skills</h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start md:py-10">
               {skills.map((item, idx) => {
                 return (
                   <p
@@ -84,7 +84,7 @@ const AboutSection = () => {
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-5 md:left-30 md:z-0 mt-12 ml-12 rounded-2xl"
+              className="hidden md:block md:relative md:bottom-5 md:left-30 md:z-0 md:mt-12 ml-12 rounded-2xl"
             />
           </div>
         </div>
