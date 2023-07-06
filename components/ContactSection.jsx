@@ -33,11 +33,11 @@ const Contact = () => {
             <div className="grid md:grid-cols-2 gap-4 w-full py-2"> 
             <div className="flex flex-col">
               <label className="font-bold text-purple-800 mb-2 ">Name</label>
-              <input className="focus:border-teal-400 border-2 border-neutral-400 rounded-md flex shadow-lg mb-4" name="name" type="text" placeholder="Name"/>
+              <input className="focus:border-teal-400 border-2 border-neutral-400 rounded-md flex shadow-lg" name="name" type="text" placeholder="Name"/>
             </div>
             <div className="flex flex-col">
               <label className="font-bold text-purple-800 mb-2">Phone Number</label>
-              <input className="focus:border-teal-400 border-2 border-neutral-400 rounded-md flex shadow-lg mb-4" name="phone" type="tel" placeholder="Phone Number"/>
+              <input className="focus:border-teal-400 border-2 border-neutral-400 rounded-md flex shadow-lg" name="phone" type="tel" placeholder="Phone Number"/>
             </div>
             </div>
             <label className="font-bold text-purple-800 mb-2">Email</label>
