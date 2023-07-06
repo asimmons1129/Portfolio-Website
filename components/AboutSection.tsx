@@ -40,7 +40,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p className="text-neutral-600 dark:text-neutral-400">
-              I decided to transition into a career in tech in 2020 when I decided 
+              I transitioned into a career in tech in 2020 when I decided 
               to go back to school.  I switched my major to Computer Science and 
               earned my Associate's degree in 2021.  I furthered my education 
               at Western Governor's University, completing my Bachelor's degree 
